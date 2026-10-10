@@ -215,7 +215,7 @@ const jsonstring=JSON.stringify(obj);
 console.log(jsonstring);
 console.log(typeof jsonstring);*/
 
-async function greet(){
+/*async function greet(){
   return "hello";
 }
 function myfunction(){
@@ -225,4 +225,20 @@ console.log(greet);
 console.log(myfunction);
 myfunction.then((result)=>{
   console.log(result);
-});
+});*/
+
+/*async function fetchdata(){
+  const response=await fetch('https://api.example.com/data');
+  const data=await response.json();
+  return data;
+}
+const a=fetchdata();
+console.log(a);*/
+
+function getuser(){
+  return fetch('/api/user')
+  .then(response=>response.json())
+  .then(user=>{
+    return fetch
+  })
+}
