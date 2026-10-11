@@ -36,7 +36,7 @@ order matters in tuple*/
 };
 console.log(car);*/
 
-class loggin{
+/*class loggin{
      login(name:string,password:string){
         if(name&&password){
         return `student login`}
@@ -44,9 +44,9 @@ class loggin{
             return 'not login'
         }
     }
-}
+}*/
 
-class student extends loggin{
+//class student extends loggin{
    /* login(name:string,password:string){
         if(name&&password){
         return `student login`}
@@ -54,7 +54,7 @@ class student extends loggin{
             return 'not login'
         }
     }*/
-    result(marks:number){
+    /*result(marks:number){
         if (marks>33){
             return 'pass'
         }
@@ -64,8 +64,8 @@ class student extends loggin{
     }
     
 
-}
-class Teacher extends loggin{
+}*/
+//class Teacher extends loggin{
    /* login(name:string,password:string){
         if(name&&password){
         return `student login`}
@@ -73,7 +73,7 @@ class Teacher extends loggin{
             return 'not login'
         }
     }*/
-   subject(subject:string){
+  /* subject(subject:string){
     return 'he teach'+subject
    }
     
@@ -85,4 +85,16 @@ console.log(s.result(24));
 console.log('idiot student');
 
 var t=new Teacher();
-console.log(t.login('sam','3436456'));
+console.log(t.login('sam','3436456'));*/
+ interface userinfo{
+    name:string,
+    age:number,
+    email:string,
+    password:string,
+}
+var people:userinfo={
+    name:'renuka',
+    age:19,
+    email:"renuka@mail.com",
+    password:"irhf1324"
+}
