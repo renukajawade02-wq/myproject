@@ -1,0 +1,16 @@
+{
+  "name": "node-2026",
+  "version": "1.0.0",
+  "description": "creating package.json without installing it sirectly using npm init",
+  "repository": {
+    "type": "git",
+    "url": "myproject"
+  },
+  "license": "ISC",
+  "author": "RENUKA JAWADE",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}
